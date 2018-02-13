@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+* { margin: 0; padding: 0; }
+a { text-decoration: none; color: #333; }
+html, body { color: #333; }
+
+/*header*/
+
+#header { width: 100%; position: fixed; z-index: 9999; top: 0; background: #FFF; }
+#header .header_inner { width: 85%; margin: 0 auto; }
+#header .header_inner .header_top { width: 100%; height: 20px; line-height: 20px; }
+#header .header_inner .header_top .header_member { float: right; }
+#header .header_inner .header_top .header_member a { float: left; margin-right: 15px; font-size: 13px; font-weight: bold; }
+#header .header_inner .header_top .header_member a:hover { color: #009AE1; }
+#header .header_inner .header_top .header_member a:last-child { margin-right: 0; }
+#header .header_inner .header_bottom { width: 100%; height: 80px; }
+#header .header_inner .header_bottom .header_logo { width: 110px; height: 70px; float: left; margin-top: 5px; }
+#header .header_inner .header_bottom .header_logo a { display: block; }
+#header .header_inner .header_bottom .header_menu { float: right; }
+#header .header_inner .header_bottom .header_menu ul li { float: left; line-height: 80px; list-style: none; margin-right: 40px; }
+#header .header_inner .header_bottom .header_menu ul li:last-child { margin-right: 0; }
+#header .header_inner .header_bottom .header_menu ul li a { font-weight: bold; }
+#header .header_inner .header_bottom .header_menu ul li a:hover, #header .header_inner .header_bottom .header_menu ul li a.active { color: #009AE1; }
+
+/*section*/
+
+#section { width: 100%; margin-top: 100px; }
+#section .article { width: 100%; height: 660px; position: relative; }
+#section .article .article_inner { width: 85%; height: 660px; margin: 0 auto; padding: 20px 0; box-sizing: border-box; position: relative; z-index: 100; }
+#section .main {}
+#section .main .main_top { width: 100%; height: 300px; }
+#section .main .main_top .main_top_left { width: 45%; margin-right: 1.5%; float: left; }
+#section .main .main_top .main_top_left .slide { width: 100%; height: 250px; text-align: center; line-height: 250px; border: 1px solid red; box-sizing: border-box; }
+#section .main .article_inner .main_top .main_top_left form { width: 100%; margin-top: 10px; }
+#section .main .article_inner .main_top .main_top_left form input { width: 100%; height: 40px; border: 1px solid red; box-sizing: border-box; padding: 15px; }
+#section .main .article_inner .main_top .main_top_right { width: 53.5%; float: left; }
+#section .main .article_inner .main_top .main_top_right .x { width: 100%; height: 300px; border: 1px solid red; box-sizing: border-box; }
+#section .main .article_inner .main_bottom { clear: both; width: 100%; height: 220px; margin-top: 20px; padding: 20px 0 0;}
+#section .main .article_inner .main_bottom .company { width: 32%; height: 220px; margin-right: 2%; border: 1px solid red; box-sizing: border-box; float: left;}
+#section .main .article_inner .main_bottom .company:last-child { margin-right: 0; }
+
+#section .service {}
+#section .service .background { width: 100%; height: 300px; background: #009AE1; position: absolute; top: 0; }
+#section .service h1 { text-align: center; color: #FFF; margin-top: 50px; }
+#section .service .service_account { width: 100%; height: 420px; position: absolute; bottom: 60px; }
+#section .service .service_account .service_account_block { width: 33.3333333333%; height: 420px; float: left; }
+#section .service .service_account .service_account_block .service_account_icon { width: 220px; height: 220px; box-sizing: border-box; border: 10px solid #FFF; margin: 0 auto; border-radius: 100%; background: #009AE1; }
+#section .service .service_account .service_account_block .service_account_write { width: 85%; margin: 0 auto; margin-top: 20px; }
+#section .service .service_account .service_account_block .service_account_write h2 { text-align: center; }
+
+#section .team {}
+#section .team .background { width: 100%; height: 300px; background: #009AE1; position: absolute; bottom: 0; }
+#section .team h1 { text-align: center; color: #009AE1; margin-top: 50px; }
+#section .team .team_introduce { width: 100%; height: 420px; position: absolute; bottom: 60px; }
+#section .team .team_introduce .team_introduce_block { width: 31.3333333333%; height: 420px; margin-right: 3%; background: #FFF; border-radius: 40px; float: left; box-sizing: border-box; }
+#section .team .team_introduce .team_introduce_block:last-child { margin-right: 0; }
+#section .team .team_introduce .team_introduce_block .team_introduce_image { width: 180px; height: 180px; border-radius: 100%; border: 5px solid #009AE1; margin: 0 auto; margin-top: 25px; }
+#section .team .team_introduce .team_introduce_block .team_introduce_write { width: 85%; margin: 0 auto; margin-top: 20px; }
+#section .team .team_introduce .team_introduce_block .team_introduce_write h2 { text-align: center; color: #009AE1; }
+
+#section .blog {}
+#section .blog .background { width: 100%; height: 300px; background: #009AE1; position: absolute; top: 0; }
+#section .blog h1 { text-align: center; color: #FFF; margin-top: 50px; }
+#section .blog .blog_account { width: 100%; height: 420px; position: absolute; bottom: 60px; }
+#section .blog .blog_account .blog_account_block { width: 33.3333333333%; height: 420px; float: left; }
+#section .blog .blog_account .blog_account_block .blog_account_icon { width: 220px; height: 220px; box-sizing: border-box; border: 10px solid #FFF; margin: 0 auto; border-radius: 100%; background: #009AE1; }
+#section .blog .blog_account .blog_account_block .blog_account_write { width: 85%; margin: 0 auto; margin-top: 20px; }
+#section .blog .blog_account .blog_account_block .blog_account_write h2 { text-align: center; }
+
+#section .inquiry {}
+#section .inquiry h1 { text-align: center; color: #009AE1; margin-top: 50px; }
+#section .inquiry .inquiry_form { width: 100%; height: 420px; position: absolute; bottom: 60px; }
+#section .inquiry .inquiry_form form { width: 500px; height: 420px; margin: auto; }
+#section .inquiry .inquiry_form form .title { width: 100%; height: 40px; border: 1px solid #009AE1; box-sizing: border-box; margin-bottom: 20px; padding: 5px 15px; }
+#section .inquiry .inquiry_form form .content { width: 100%; height: 300px; border: 1px solid #009AE1; margin-bottom: 10px; box-sizing: border-box; }
+#section .inquiry .inquiry_form form .btn { width: 45px; height: 45px; font-size: 12px; font-weight: bold; border: none; background: #009AE1; color: #FFF; box-sizing: border-box; border-radius: 100%; margin: 0 auto; display: block;}
+
+#section .follow {}
+#section .follow .background { width: 100%; height: 430px; position: absolute; bottom: 0; background: #009AE1; }
+#section .follow h1 { color: #009AE1; margin-top: 50px; text-align: center; }
+#section .follow .follow_map { width: 100%; height: 420px; position: absolute; bottom: 60px; }
+#section .follow .follow_map .follow_top { width: 100%; height: 150px; }
+#section .follow .follow_map .follow_top .follow_sns { width: 400px; height: 100px; margin: 0 auto; }
+#section .follow .follow_map .follow_top .follow_sns .follow_sns_icon { width: 100px; height: 100px; background: #009AE1; border: 8px solid #FFF; box-sizing: border-box; float: left; border-radius: 100%; margin-right: 50px; text-align: center; line-height: 80px; }
+#section .follow .follow_map .follow_top .follow_sns .follow_sns_icon:last-child { margin-right: 0; }
+#section .follow .follow_map .follow_top .follow_sns .follow_sns_icon a { display: block; }
+#section .follow .follow_map .follow_bottom { width: 100%; height: 280px;border: 1px solid white; margin-top: 40px; box-sizing: border-box; }
+
+/*footer*/
+
+#footer { width: 100%; height: 150px; background: #009AE1; padding: 20px 0; box-sizing: border-box; }
+#footer .footer_inner { width: 85%; margin: 0 auto; line-height: 200%; font-size: 13px; }
+#footer .footer_inner .footer_top { width: 100%; margin-bottom: 20px; }
+#footer .footer_inner .footer_top a { margin-right: 30px; color: #FFF; }
+#footer .footer_inner .footer_top a:last-child { margin-right: 0; }
+#footer .footer_inner .footer_bottom { width: 100%; }
+#footer .footer_inner .footer_bottom dl dd { color: #FFF; display: block; clear: both;}
+#footer .footer_inner .footer_bottom dl dd ul li { list-style: none; float: left; margin-right: 10px; }

@@ -1,0 +1,36 @@
+BlueSprint Web Start
+BlueSprint Web Start
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES 0.0.0.0:80
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1334:19)
+    at listenInCluster (net.js:1392:12)
+    at Server.listen (net.js:1476:7)
+    at Function.listen (/opt/server_js/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/opt/server_js/webapp.js:13:5)
+    at Module._compile (module.js:643:30)
+    at Object.Module._extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+BlueSprint Web Start
+BlueSprint Web Start
+BlueSprint Web Start
+BlueSprint Web Start
+BlueSprint Web Start
+BlueSprint Web Start
+BlueSprint Web Start
+BlueSprint Web Start
+TypeError: Cannot read property 'save' of undefined
+    at /opt/server_js/webapp.js:155:14
+    at Layer.handle [as handle_request] (/opt/server_js/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/server_js/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/server_js/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/server_js/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/server_js/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/opt/server_js/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/server_js/node_modules/express/lib/router/index.js:275:10)
+    at SessionStrategy.strategy.pass (/opt/server_js/node_modules/passport/lib/middleware/authenticate.js:338:9)
+    at SessionStrategy.authenticate (/opt/server_js/node_modules/passport/lib/strategies/session.js:75:10)
